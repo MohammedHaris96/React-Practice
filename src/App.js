@@ -1,14 +1,12 @@
 import "./App.css";
 import Hello from "./components/Hello";
-import State from "./components/State";
 
 function App() {
   return (
     <div className="App">
-      <Hello name="Haris" />
-      <Hello name="Faisal" />
-      <Hello name="Arhan" />
-      <State/>
+      <Hello name="Haris" hobbies="swimming" />
+      <Hello name="Faisal" hobbies="cricket" />
+      <Hello name="Arhan" hobbies="football" />
     </div>
   );
 }
