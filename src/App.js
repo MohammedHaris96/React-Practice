@@ -8,7 +8,7 @@ function App() {
       <Hello name="Haris" hobbies="swimming" />
       <Hello name="Faisal" hobbies="cricket" />
       <Hello name="Arhan" hobbies="football" />
-      <Place />
+      <Place city="Jammu & Kashmir"/>
     </div>
   );
 }

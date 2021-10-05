@@ -1,9 +1,9 @@
 import React from "react";
 
-const Place = () => {
+const Place = ({ city }) => {
   return (
     <div>
-      <h1>We all live in srinagar</h1>
+      <h1>We all live in {city}</h1>
     </div>
   );
 };
